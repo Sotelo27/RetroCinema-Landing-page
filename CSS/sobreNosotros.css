@@ -1,0 +1,95 @@
+.img1 {
+    background-image: url(/IMG/img1GrupoCinefilos.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background-image: url(/IMG/img2EquipoCine.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.img3 {
+    background-image: url(/IMG/img3RetroJuntos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img4 {
+    background-image: url(/IMG/img4Sumate.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width: 991px) {
+
+    .img1,
+    .img2,
+    .img3,
+    .img4 {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        height: 100%;
+        border-style: solid;
+    }
+
+    .txt1,
+    .txt2,
+    .txt3,
+    .txt4 {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        height: auto;
+    }
+
+    .divRow {
+        height: 350px;
+        border-bottom: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .img1,
+    .txt2,
+    .img3,
+    .img4,#map{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height: 100%;
+    }
+
+    .txt1,
+    .img2,
+    .txt3,
+    .txt4,#map {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        height: 100%;
+    }
+
+    .divRow {
+        height: 350px;
+        transition: .5s ease-in-out;
+    }
+
+    .divRow:hover {
+        box-shadow: 0 40px 255px rgb(255, 255, 255);
+        border-radius: 15px;
+        transition: .6s ease-in-out;
+    }
+}
+
+.txtMain {
+    background-color: #fa0202;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}

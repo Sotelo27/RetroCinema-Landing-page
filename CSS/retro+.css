@@ -1,0 +1,74 @@
+/* titulo*/
+.camposObligatorios{
+    text-decoration: underline;
+    text-justify: initial;
+}
+
+/* spans */
+
+span {
+    color: red;
+}
+
+/* Styles inputs */
+
+label {
+    font-weight:bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.label-s {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+/* Cuerpo Formulario */
+
+.cuerpoFormulario {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 10px 10px 25px 20px  rgb(255, 255, 255);
+
+}
+
+/* inputs */
+.inputes {
+    border-style: solid;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 15px;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+/* send bottom */
+
+.send-btn {
+    margin-bottom: 30px;
+    background-color:black;
+    font-weight: bold;
+    color: white;
+}
+
+/* cancel bottom */
+
+.cancel-btn{
+    margin-bottom: 30px;
+    font-weight: bold;
+    background-color: black;
+    width: 50%;
+    color: white;
+    
+}
+
+.input-long {
+    height: 250px;
+}
+
+.container {
+    width: 55rem;
+    padding: 0;
+    background-color: white;
+}
